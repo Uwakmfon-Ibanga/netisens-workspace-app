@@ -1,0 +1,9 @@
+.BorderButton {
+    color: white;
+    width: 200px;
+    height: 37px;
+    border: 2px solid;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+}

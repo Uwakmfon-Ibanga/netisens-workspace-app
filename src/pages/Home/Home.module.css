@@ -1,0 +1,21 @@
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #160433;
+}
+.homeImage {
+    width: 45%;
+}
+.text {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    gap: 20px;
+    align-self: flex-start;
+}

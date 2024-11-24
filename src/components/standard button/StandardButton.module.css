@@ -1,0 +1,9 @@
+.StandardButton {
+    color: white;
+    width: 200px;
+    height: 37px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+}
