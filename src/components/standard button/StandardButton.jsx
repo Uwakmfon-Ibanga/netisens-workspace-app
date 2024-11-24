@@ -1,16 +1,18 @@
 import React from 'react'
 import styles from './StandardButton.module.css'
+import { useNavigate } from 'react-router-dom'
 
-const StandardButton = ({Backgroundcolor, text}) => {
+const StandardButton = ({Backgroundcolor, target, text}) => {
     const buttonStyles = {
       backgroundColor: Backgroundcolor,
     }
-    function handleSubmit(e) {
-      e.preventDefault();
+    const navigate = useNavigate();
+    function handleSubmit() {
+      navigate(target);
     }
     
   return (
-    <button onClick={(e) => handleSubmit(e)} className={styles.StandardButton} style={buttonStyles}>{text}</button>
+    <button onClick={handleSubmit} className={styles.StandardButton} style={buttonStyles}>{text}</button>
   )
 }
 

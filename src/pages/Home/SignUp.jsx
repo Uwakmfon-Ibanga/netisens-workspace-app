@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Header from "../../components/Header/Header";
 import StandardButton from "../../components/standard button/StandardButton";
 import Form from "../../components/Form";
+import { Link } from "react-router-dom";
 
 const SignUp = () => {
 
@@ -34,7 +35,7 @@ const SignUp = () => {
 
           <form className="grid  grid-rows-4 gap-2 items-center p-6 rounded-lg shadow-lg">
 
-            <h1 className="self-center text-3xl col-span-2 font-bold">Sign Up</h1>
+            <p className="self-center text-3xl col-span-2 font-bold">Sign In</p>
 
             <input
               type="email"
@@ -46,7 +47,7 @@ const SignUp = () => {
               required
             />
             <StandardButton Backgroundcolor={"#0CF637"} text={"SIGN IN"}/>
-            <p className="col-span-2 text-mid text-custom-grey">Don’t have an account? <a className="text-custom-blue">Sign up</a></p>
+            <p className="col-span-2 text-mid text-custom-grey">Don’t have an account? <Link to='/signin' className="text-custom-blue">Sign In</Link></p>
           </form>
         </div>
       </div>

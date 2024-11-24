@@ -4,7 +4,6 @@ import WorkspaceLogo from "../../components/workspace logo/WorkspaceLogo";
 import styles from "./Home.module.css";
 import StandardButton from "../../components/standard button/StandardButton";
 import BorderButton from "../../components/Border button/BorderButton";
-import { Link, NavLink } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -20,10 +19,9 @@ const Home = () => {
         <div className={styles.text}>
         <WorkspaceLogo />
         <p>Innovative workspaces—public, private, and semi-private. Boost your productivity!</p>
-        <Link to="/signup">
-        <StandardButton Backgroundcolor={'#FF9D00'} text={'GET STARTED'}/>
-        </Link>
-        <BorderButton borderColor={'linear-gradient( #0CF637, #950DFF) 1'} text={'I’M ALREADY REGISTERED '}/>
+        <StandardButton target={'/signup'} Backgroundcolor={'#FF9D00'} text={'GET STARTED'}/>
+
+        <BorderButton target={'/signin'} borderColor={'linear-gradient( #0CF637, #950DFF) 1'} text={'I’M ALREADY REGISTERED '}/>
         </div>
       </div>
     </div>
