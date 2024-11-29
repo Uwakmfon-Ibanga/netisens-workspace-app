@@ -13,7 +13,7 @@ const BorderButton = ({text, borderColor }) => {
     }
 
   return (
-    <button onClick={handleClick} style={buttonStyles} className="text-white w-50 h-9 border-2 border-solid rounded-2xl text-center p-1">{text}</button>
+    <button onClick={handleClick} style={buttonStyles} className="text-white w-[200px] h-9 border-2 border-solid rounded-2xl text-center p-1 sm: text-xs w" >{text}</button>
   )
 }
 

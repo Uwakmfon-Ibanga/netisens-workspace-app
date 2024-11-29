@@ -7,7 +7,7 @@ const ShadowButton = ({text, backgroundColor}) => {
     }
   return (
     // <button className='shadow-black w-60 col-span-2 row-start-3 justify-self-center p-0. rounded-md' style={buttonStyle}>{text}</button>
-    <button className="shadow-custom w-60 col-span-2 row-start-3 justify-self-center p-2 rounded-md" style={buttonStyle} > {text} </button>
+    <button className="shadow-custom text-white font-bold w-[100px] text-sm lg:w-60 col-span-2 row-start-3 justify-self-center p-1 lg:p-2 rounded-md" style={buttonStyle} > {text} </button>
   )
 }
 

@@ -36,16 +36,6 @@ export default {
       'vh-75': '75vh',
       'vh-100': '100vh'
     },
-    // width: {
-    //   'vw-25': '25vw',
-    //   'vw-35': '35vw',
-    //   'vw-45': '45vw',
-    //   'vw-50': '50vw',
-    //   'vw-55': '55vw',
-    //   'vw-65': '65vw',
-    //   'vw-75': '75vw',
-    //   'vw-100': '100vw'
-    // },
   },
   plugins: [],
   // plugins: [ require('tailwindcss-texthadow') ],
