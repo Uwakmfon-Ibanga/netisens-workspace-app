@@ -24,7 +24,7 @@ const Form = () => {
   return (
     <form
       onSubmit={handleSubmit}
-      className=" w-2/3 mx-auto p-4 flex flex-col items-center gap-10"
+      className=" w-4/5 mx-auto p-4 flex flex-col items-center gap-5 text-[10px]"
     >
 
       <div className="grid grid-cols-2 gap-4 w-full">
@@ -34,7 +34,7 @@ const Form = () => {
         placeholder="Username"
         value={input.userName}
         onChange={(e) => handleChange(e)}
-        className="col-span-1 w-full p-2 border border-gray-300 rounded"
+        className="col-span-1 w-[100px] h-[25px] p-2 border border-gray-300 rounded text-custom-grey"
         required
       />
 
@@ -44,7 +44,7 @@ const Form = () => {
         placeholder="Email"
         // value={}
         onChange={(e) => handleChange(e)}
-        className="col-span-1  w-full p-2 border border-gray-300 rounded"
+        className="col-span-1  w-[100px] h-[25px]  p-2 border border-gray-300 rounded"
         required
       />
 
@@ -52,7 +52,7 @@ const Form = () => {
         name="gender"
         // value={}
         onChange={(e) => handleChange(e)}
-        className="w-full text-left border border-gray-300 col-span-1 p-1 rounded"
+        className="w-[100px] h-[25px]  text-left border text-custom-grey border-gray-300 col-span-1 p-1 rounded"
         required
       >
         <option value="">Select Gender</option>
@@ -66,7 +66,7 @@ const Form = () => {
         placeholder="Phone No"
         // value={}
         onChange={(e) => handleChange(e)}
-        className="w-full col-span-1  p-2 border border-gray-300 rounded"
+        className="w-[100px] h-[25px]  col-span-1  p-2 border border-gray-300 rounded"
         required
       />
 
@@ -76,7 +76,7 @@ const Form = () => {
         placeholder="password"
         // value={}
         onChange={(e) => handleChange(e)}
-        className="col-span-1  w-full p-2 border border-gray-300 rounded"
+        className="col-span-1 w-[100px] h-[25px]  p-2 border border-gray-300 rounded"
         required
       />
 
@@ -86,7 +86,7 @@ const Form = () => {
         placeholder="confirm password"
         // value={}
         onChange={(e) => handleChange(e)}
-        className="col-span-1  w-full p-2 border border-gray-300 rounded"
+        className="col-span-1 w-[100px] h-[25px]  p-2 border border-gray-300 rounded"
         required
       />
       </div>

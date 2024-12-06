@@ -1,0 +1,28 @@
+[
+    { "seatNumber": 1, "isBooked": true, "occupant": "Alice" },
+    { "seatNumber": 2, "isBooked": false, "occupant": null },
+    { "seatNumber": 3, "isBooked": true, "occupant": "Bob" },
+    { "seatNumber": 4, "isBooked": false, "occupant": null },
+    { "seatNumber": 5, "isBooked": true, "occupant": "Charlie" },
+    { "seatNumber": 6, "isBooked": false, "occupant": null },
+    { "seatNumber": 7, "isBooked": true, "occupant": "Daisy" },
+    { "seatNumber": 8, "isBooked": false, "occupant": null },
+    { "seatNumber": 9, "isBooked": true, "occupant": "Eve" },
+    { "seatNumber": 10, "isBooked": false, "occupant": null },
+    { "seatNumber": 11, "isBooked": true, "occupant": "Frank" },
+    { "seatNumber": 12, "isBooked": false, "occupant": null },
+    { "seatNumber": 13, "isBooked": true, "occupant": "Grace" },
+    { "seatNumber": 14, "isBooked": false, "occupant": null },
+    { "seatNumber": 15, "isBooked": true, "occupant": "Hank" },
+    { "seatNumber": 16, "isBooked": false, "occupant": null },
+    { "seatNumber": 17, "isBooked": true, "occupant": "Ivy" },
+    { "seatNumber": 18, "isBooked": false, "occupant": null },
+    { "seatNumber": 19, "isBooked": true, "occupant": "Jack" },
+    { "seatNumber": 20, "isBooked": false, "occupant": null },
+    { "seatNumber": 21, "isBooked": true, "occupant": "Kate" },
+    { "seatNumber": 22, "isBooked": false, "occupant": null },
+    { "seatNumber": 23, "isBooked": true, "occupant": "Leo" },
+    { "seatNumber": 24, "isBooked": false, "occupant": null },
+    { "seatNumber": 25, "isBooked": true, "occupant": "Mia" }
+  ]
+  
